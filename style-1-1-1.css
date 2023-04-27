@@ -1,0 +1,91 @@
+/* Estilos gerais */
+
+body {
+	font-family: Arial, sans-serif;
+	margin: 0;
+	padding: 0;
+}
+.cabecalho {
+    background-color: #424E61;
+    color: rgb(156, 21, 21);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 24px 0;
+}
+
+.cabecalho-imagem{
+    width: 30%;
+}
+
+header, main, footer {
+	margin: 0 auto;
+	max-width: 960px;
+}
+
+header {
+	padding: 20px 0;
+}
+
+h1 {
+	margin: 0;
+}
+
+nav ul {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+
+nav li {
+	display: inline-block;
+	margin-right: 20px;
+}
+
+nav a {
+	color: #2a09e5;
+	text-decoration: none;
+	font-size: 18px;
+	padding: 10px;
+}
+
+nav a:hover {
+	background-color: #2f22e4;
+}
+
+main section {
+	margin-top: 40px;
+}
+
+h2 {
+	margin-top: 0;
+}
+
+ul {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+
+li {
+	margin-bottom: 10px;
+}
+
+/* Estilos específicos para a seção de eventos */
+
+section:nth-of-type(3) {
+	background-color: #aecd71;
+	padding: 20px;
+}
+
+section:nth-of-type(3) li {
+	margin-bottom: 20px;
+}
+
+section:nth-of-type(3) li:first-child {
+	font-weight: bold;
+}
+
+section:nth-of-type(3) li:last-child {
+	margin-bottom: 150;
+}
